@@ -37,10 +37,4 @@ mixin _$AppController on _AppBase, Store {
       _$_AppBaseActionController.endAction(_$actionInfo);
     }
   }
-
-  @override
-  String toString() {
-    final string = 'value: ${value.toString()}';
-    return '{$string}';
-  }
 }

@@ -1,4 +1,4 @@
-# ecommerce_hasura
+# loja_hasura
 
 A new Flutter project.
 

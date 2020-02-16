@@ -8,9 +8,7 @@ class AppWidget extends StatelessWidget {
       navigatorKey: Modular.navigatorKey,
       title: 'Loja Hasura',
       theme: ThemeData(
-        primaryColor: Color(0xff797ec2),
-        accentColor: Color(0xff72afdd),
-      ),
+          primaryColor: Color(0xff797ec2), accentColor: Color(0xff72afdd)),
       initialRoute: '/',
       onGenerateRoute: Modular.generateRoute,
     );
